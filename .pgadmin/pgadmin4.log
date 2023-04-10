@@ -1,0 +1,287 @@
+2022-11-05 22:49:02,044: WARNING	werkzeug:	WebSocket transport not available. Install simple-websocket for improved performance.
+2022-11-05 23:05:31,564: ERROR	pgadmin:	401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+Traceback (most recent call last):
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Resources/web/pgadmin/__init__.py", line 775, in before_request
+    abort(401)
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/werkzeug/exceptions.py", line 879, in abort
+    _aborter(status, *args, **kwargs)
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/werkzeug/exceptions.py", line 862, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Unauthorized: 401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+2022-11-05 23:06:13,281: ERROR	pgadmin:	401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+Traceback (most recent call last):
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Resources/web/pgadmin/__init__.py", line 775, in before_request
+    abort(401)
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/werkzeug/exceptions.py", line 879, in abort
+    _aborter(status, *args, **kwargs)
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/werkzeug/exceptions.py", line 862, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Unauthorized: 401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+2022-11-05 23:10:06,994: ERROR	pgadmin:	401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+Traceback (most recent call last):
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Resources/web/pgadmin/__init__.py", line 775, in before_request
+    abort(401)
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/werkzeug/exceptions.py", line 879, in abort
+    _aborter(status, *args, **kwargs)
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/werkzeug/exceptions.py", line 862, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Unauthorized: 401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+2022-11-05 23:10:14,598: ERROR	pgadmin:	401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+Traceback (most recent call last):
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Resources/web/pgadmin/__init__.py", line 775, in before_request
+    abort(401)
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/werkzeug/exceptions.py", line 879, in abort
+    _aborter(status, *args, **kwargs)
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/werkzeug/exceptions.py", line 862, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Unauthorized: 401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+2022-11-05 23:10:16,286: ERROR	pgadmin:	401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+Traceback (most recent call last):
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Resources/web/pgadmin/__init__.py", line 775, in before_request
+    abort(401)
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/werkzeug/exceptions.py", line 879, in abort
+    _aborter(status, *args, **kwargs)
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/werkzeug/exceptions.py", line 862, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Unauthorized: 401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+2022-11-05 23:10:21,233: ERROR	pgadmin:	401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+Traceback (most recent call last):
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Resources/web/pgadmin/__init__.py", line 775, in before_request
+    abort(401)
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/werkzeug/exceptions.py", line 879, in abort
+    _aborter(status, *args, **kwargs)
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/werkzeug/exceptions.py", line 862, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Unauthorized: 401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+2022-11-05 23:11:06,547: ERROR	pgadmin:	401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+Traceback (most recent call last):
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Resources/web/pgadmin/__init__.py", line 775, in before_request
+    abort(401)
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/werkzeug/exceptions.py", line 879, in abort
+    _aborter(status, *args, **kwargs)
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/werkzeug/exceptions.py", line 862, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Unauthorized: 401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+2022-11-05 23:11:25,165: ERROR	pgadmin:	401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+Traceback (most recent call last):
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Resources/web/pgadmin/__init__.py", line 775, in before_request
+    abort(401)
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/werkzeug/exceptions.py", line 879, in abort
+    _aborter(status, *args, **kwargs)
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/werkzeug/exceptions.py", line 862, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Unauthorized: 401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+2022-11-05 23:11:30,700: ERROR	pgadmin:	401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+Traceback (most recent call last):
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Resources/web/pgadmin/__init__.py", line 775, in before_request
+    abort(401)
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/werkzeug/exceptions.py", line 879, in abort
+    _aborter(status, *args, **kwargs)
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/werkzeug/exceptions.py", line 862, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Unauthorized: 401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+2022-11-05 23:16:11,447: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 9737234):
+Error Message:ERROR:  syntax error at or near "history"
+LINE 1: CREATE TABLE outbound history
+                              ^
+SQL state: 42601
+Character: 23
+2022-11-05 23:16:19,721: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 3290557):
+Error Message:ERROR:  syntax error at end of input
+LINE 1: CREATE TABLE outbound
+                             ^
+SQL state: 42601
+Character: 22
+2022-11-05 23:25:11,238: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 5516249):
+Error Message:ERROR:  syntax error at or near ")"
+LINE 1: COPY outbound()
+                      ^
+SQL state: 42601
+Character: 15
+2022-11-05 23:25:43,374: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 9507849):
+Error Message:ERROR:  syntax error at or near ","
+LINE 3: DELIMITER ','
+                   ^
+SQL state: 42601
+Character: 90
+2022-11-05 23:25:55,256: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 7123455):
+Error Message:ERROR:  syntax error at or near ","
+LINE 3: DELIMITER ','
+                   ^
+SQL state: 42601
+Character: 90
+2022-11-05 23:26:00,757: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 5646917):
+Error Message:ERROR:  syntax error at or near ","
+LINE 3: DELIMITER ',';
+                   ^
+SQL state: 42601
+Character: 90
+2022-11-05 23:26:07,288: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 4221939):
+Error Message:ERROR:  syntax error at or near ","
+LINE 3: DELIMITER ',' CSV HEADER;
+                   ^
+SQL state: 42601
+Character: 90
+2022-11-05 23:26:11,197: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 3059515):
+Error Message:ERROR:  syntax error at or near ","
+LINE 2: ...ads\2022-11-03 10-40 BnB Formula Calls DELIMITER ',' CSV HEA...
+                                                             ^
+SQL state: 42601
+Character: 90
+2022-11-05 23:26:23,280: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 8878185):
+Error Message:ERROR:  syntax error at or near ","
+LINE 3: DELIMITER ',' 
+                   ^
+SQL state: 42601
+Character: 91
+2022-11-05 23:27:32,273: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 2917114):
+Error Message:ERROR:  could not open file "C:\users\tmc\downloads\2022-11-03 10-40 BnB Formula Calls.csv" for reading: No such file or directory
+HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+SQL state: 58P01
+2022-11-05 23:27:47,666: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 6584747):
+Error Message:ERROR:  could not open file "C:~\downloads\2022-11-03 10-40 BnB Formula Calls.csv" for reading: No such file or directory
+HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+SQL state: 58P01
+2022-11-05 23:27:58,224: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 78600):
+Error Message:ERROR:  could not open file "C:~\Users\tmc\downloads\2022-11-03 10-40 BnB Formula Calls.csv" for reading: No such file or directory
+HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+SQL state: 58P01
+2022-11-05 23:28:01,653: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 5205058):
+Error Message:ERROR:  could not open file "C:~\Users\tmc\Downloads\2022-11-03 10-40 BnB Formula Calls.csv" for reading: No such file or directory
+HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+SQL state: 58P01
+2022-11-05 23:28:19,225: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 2768102):
+Error Message:ERROR:  could not open file "C:~\tmc\Downloads\2022-11-03 10-40 BnB Formula Calls.csv" for reading: No such file or directory
+HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+SQL state: 58P01
+2022-11-05 23:28:24,764: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 8958898):
+Error Message:ERROR:  could not open file "C:\tmc\Downloads\2022-11-03 10-40 BnB Formula Calls.csv" for reading: No such file or directory
+HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+SQL state: 58P01
+2022-11-05 23:28:28,491: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 3363768):
+Error Message:ERROR:  could not open file "C:\Downloads\2022-11-03 10-40 BnB Formula Calls.csv" for reading: No such file or directory
+HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+SQL state: 58P01
+2022-11-05 23:29:09,784: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 8362260):
+Error Message:ERROR:  could not open file "C:\Downloads\2022-11-03-BNBCalls.csv" for reading: No such file or directory
+HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+SQL state: 58P01
+2022-11-05 23:29:55,250: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 5752071):
+Error Message:ERROR:  could not open file "C:\Users\tmc\Downloads\2022-11-03-BNBCalls.csv" for reading: No such file or directory
+HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+SQL state: 58P01
+2022-11-05 23:35:26,672: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 6597334):
+Error Message:ERROR:  could not open file "C:\Users\tmc\Downloads\2022-11-03-BNBCalls.csv" for reading: No such file or directory
+HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+SQL state: 58P01
+2022-11-05 23:35:58,280: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 8034564):
+Error Message:ERROR:  could not open file "C:/Users/tmcD/ownloads/2022-11-03-BNBCalls.csv" for reading: No such file or directory
+HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+SQL state: 58P01
+2022-11-05 23:38:27,170: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 7187623):
+Error Message:ERROR:  could not open file "C:\Users\tmc\Downloads\2022-11-03-BNBCalls.csv" for reading: No such file or directory
+HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+SQL state: 58P01
+2022-11-05 23:41:33,152: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 3226511):
+Error Message:ERROR:  could not open file "C:\Users\tmc\Documents\2022-11-03-BNBCalls.csv" for reading: No such file or directory
+HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+SQL state: 58P01
+2022-11-05 23:42:50,671: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 4460257):
+Error Message:ERROR:  could not open file "C:~\tmc\Documents\2022-11-03-BNBCalls.csv" for reading: No such file or directory
+HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+SQL state: 58P01
+2022-11-05 23:43:02,222: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 1162040):
+Error Message:ERROR:  could not open file "C:~/tmc/Documents/022-11-03-BNBCalls.csv" for reading: No such file or directory
+HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+SQL state: 58P01
+2022-11-05 23:43:06,654: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 519269):
+Error Message:ERROR:  could not open file "C:~/tmc/Documents/2022-11-03-BNBCalls.csv" for reading: No such file or directory
+HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+SQL state: 58P01
+2022-11-05 23:47:26,585: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 4986083):
+Error Message:ERROR:  could not open file "Macintosh HD:Users/tmc/Documents/2022-11-03-BNBCalls.csv" for reading: No such file or directory
+HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+SQL state: 58P01
+2022-11-05 23:47:32,239: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 9776305):
+Error Message:ERROR:  could not open file "C:Users/tmc/Documents/2022-11-03-BNBCalls.csv" for reading: No such file or directory
+HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+SQL state: 58P01
+2022-11-05 23:47:40,516: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 3397523):
+Error Message:ERROR:  could not open file "C:Users/tmc/Downloads/2022-11-03-BNBCalls.csv" for reading: No such file or directory
+HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+SQL state: 58P01
+2022-11-05 23:48:47,584: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 2649592):
+Error Message:ERROR:  could not open file "/Users/tmc/Downloads/2022-11-03-BNBCalls.csv" for reading: Permission denied
+HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+SQL state: 42501
+2022-11-05 23:48:51,770: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:3993368(Query-id: 3367786):
+Error Message:ERROR:  could not open file "C:/Users/tmc/Downloads/2022-11-03-BNBCalls.csv" for reading: No such file or directory
+HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+SQL state: 58P01
+2022-11-06 00:02:33,584: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:1103321(Query-id: 5253469):
+Error Message:ERROR:  could not open file "C:/Users/tmc/Downloads/2022-11-03-BNBCalls.csv" for reading: No such file or directory
+HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+SQL state: 58P01
+2022-11-06 00:04:29,836: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:1103321(Query-id: 2391860):
+Error Message:ERROR:  could not open file "~/Downloads/2022-11-03-BNBCalls.csv" for reading: No such file or directory
+HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+SQL state: 58P01
+2022-11-06 00:05:31,232: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:6383381(Query-id: 5113321):
+Error Message:ERROR:  could not open file "C:/Users/tmc/Downloads/2022-11-03-BNBCalls.csv" for reading: No such file or directory
+HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+SQL state: 58P01
+2022-11-06 00:05:53,134: ERROR	pgadmin:	Failed to execute query (execute_async) for the server #1 - CONN:6383381(Query-id: 7534784):
+Error Message:ERROR:  syntax error at or near "/"
+LINE 1: /copy
+        ^
+SQL state: 42601
+Character: 1
+2022-11-06 00:06:57,884: ERROR	pgadmin:	401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.
+Traceback (most recent call last):
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/flask/app.py", line 1857, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Resources/web/pgadmin/__init__.py", line 775, in before_request
+    abort(401)
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/werkzeug/exceptions.py", line 879, in abort
+    _aborter(status, *args, **kwargs)
+  File "/Library/PostgreSQL/15/pgAdmin 4.app/Contents/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/werkzeug/exceptions.py", line 862, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Unauthorized: 401 Unauthorized: The server could not verify that you are authorized to access the URL requested. You either supplied the wrong credentials (e.g. a bad password), or your browser doesn't understand how to supply the credentials required.

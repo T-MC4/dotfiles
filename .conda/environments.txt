@@ -1,0 +1,5 @@
+/opt/homebrew/Caskroom/miniconda/base
+/opt/homebrew/Caskroom/miniconda/base/envs/test1
+/opt/homebrew/Caskroom/miniconda/base/envs/learningDataSci
+/opt/homebrew/Caskroom/miniconda/base/envs/manim
+/opt/homebrew/Caskroom/miniconda/base/envs/my-manim-environment
