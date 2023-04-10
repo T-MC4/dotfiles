@@ -180,4 +180,15 @@
 
 [init]
 
+	default = branch
 	defaultBranch = main
+
+[user]
+	name = t-mc4
+	email = business.basics@aleeas.com
+
+[pager]
+	branch = false
+
+[credential]
+	helper = store
